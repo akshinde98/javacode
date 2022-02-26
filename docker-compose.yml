@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  docjava:
+    image: docjava
+    build:
+      context: .
+      dockerfile: ./Dockerfile
